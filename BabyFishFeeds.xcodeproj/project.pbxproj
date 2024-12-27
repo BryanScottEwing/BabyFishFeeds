@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9346370B2A9802C40052B15D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9346370A2A9802C40052B15D /* SettingsView.swift */; };
+		93606F962A92EDB300E60C8A /* SalinityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93606F952A92EDB300E60C8A /* SalinityView.swift */; };
+		939AF9862A91A28200081F93 /* BabyFishFeeds Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 939AF9852A91A28200081F93 /* BabyFishFeeds Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		939AF98B2A91A28200081F93 /* BabyFishFeedsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AF98A2A91A28200081F93 /* BabyFishFeedsApp.swift */; };
+		939AF98D2A91A28200081F93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AF98C2A91A28200081F93 /* ContentView.swift */; };
+		939AF98F2A91A28300081F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939AF98E2A91A28300081F93 /* Assets.xcassets */; };
+		939AF9922A91A28300081F93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 939AF9912A91A28300081F93 /* Preview Assets.xcassets */; };
+		939AF99C2A91A28300081F93 /* BabyFishFeeds_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AF99B2A91A28300081F93 /* BabyFishFeeds_Watch_AppTests.swift */; };
+		939AF9A62A91A28300081F93 /* BabyFishFeeds_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AF9A52A91A28300081F93 /* BabyFishFeeds_Watch_AppUITests.swift */; };
+		939AF9A82A91A28300081F93 /* BabyFishFeeds_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939AF9A72A91A28300081F93 /* BabyFishFeeds_Watch_AppUITestsLaunchTests.swift */; };
+		93A67E1C2A97DD9500D69C7B /* numberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A67E1B2A97DD9500D69C7B /* numberPad.swift */; };
+		93D8B17E2A91CE31001F3CFD /* RotifersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8B17D2A91CE31001F3CFD /* RotifersView.swift */; };
+		93D8B1802A91D749001F3CFD /* NHArtemiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8B17F2A91D749001F3CFD /* NHArtemiaView.swift */; };
+		93D8B1822A9263C4001F3CFD /* AlgaeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8B1812A9263C4001F3CFD /* AlgaeView.swift */; };
+		93D8B1842A926437001F3CFD /* CopepodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8B1832A926437001F3CFD /* CopepodsView.swift */; };
+		93D8B1862A926489001F3CFD /* ENRArtemiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D8B1852A926489001F3CFD /* ENRArtemiaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		939AF9872A91A28200081F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939AF9792A91A28200081F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939AF9842A91A28200081F93;
+			remoteInfo = "BabyFishFeeds Watch App";
+		};
+		939AF9982A91A28300081F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939AF9792A91A28200081F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939AF9842A91A28200081F93;
+			remoteInfo = "BabyFishFeeds Watch App";
+		};
+		939AF9A22A91A28300081F93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 939AF9792A91A28200081F93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939AF9842A91A28200081F93;
+			remoteInfo = "BabyFishFeeds Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		939AF9AE2A91A28300081F93 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				939AF9862A91A28200081F93 /* BabyFishFeeds Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9346370A2A9802C40052B15D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		93606F952A92EDB300E60C8A /* SalinityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalinityView.swift; sourceTree = "<group>"; };
+		939AF97F2A91A28200081F93 /* BabyFishFeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyFishFeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		939AF9852A91A28200081F93 /* BabyFishFeeds Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BabyFishFeeds Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939AF98A2A91A28200081F93 /* BabyFishFeedsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyFishFeedsApp.swift; sourceTree = "<group>"; };
+		939AF98C2A91A28200081F93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		939AF98E2A91A28300081F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		939AF9912A91A28300081F93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		939AF9972A91A28300081F93 /* BabyFishFeeds Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabyFishFeeds Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939AF99B2A91A28300081F93 /* BabyFishFeeds_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyFishFeeds_Watch_AppTests.swift; sourceTree = "<group>"; };
+		939AF9A12A91A28300081F93 /* BabyFishFeeds Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BabyFishFeeds Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		939AF9A52A91A28300081F93 /* BabyFishFeeds_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyFishFeeds_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		939AF9A72A91A28300081F93 /* BabyFishFeeds_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyFishFeeds_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93A67E1B2A97DD9500D69C7B /* numberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberPad.swift; sourceTree = "<group>"; };
+		93D8B17D2A91CE31001F3CFD /* RotifersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotifersView.swift; sourceTree = "<group>"; };
+		93D8B17F2A91D749001F3CFD /* NHArtemiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHArtemiaView.swift; sourceTree = "<group>"; };
+		93D8B1812A9263C4001F3CFD /* AlgaeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgaeView.swift; sourceTree = "<group>"; };
+		93D8B1832A926437001F3CFD /* CopepodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopepodsView.swift; sourceTree = "<group>"; };
+		93D8B1852A926489001F3CFD /* ENRArtemiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENRArtemiaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		939AF9822A91A28200081F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF9942A91A28300081F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF99E2A91A28300081F93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		939AF9782A91A28200081F93 = {
+			isa = PBXGroup;
+			children = (
+				939AF9892A91A28200081F93 /* BabyFishFeeds Watch App */,
+				939AF99A2A91A28300081F93 /* BabyFishFeeds Watch AppTests */,
+				939AF9A42A91A28300081F93 /* BabyFishFeeds Watch AppUITests */,
+				939AF9802A91A28200081F93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		939AF9802A91A28200081F93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				939AF97F2A91A28200081F93 /* BabyFishFeeds.app */,
+				939AF9852A91A28200081F93 /* BabyFishFeeds Watch App.app */,
+				939AF9972A91A28300081F93 /* BabyFishFeeds Watch AppTests.xctest */,
+				939AF9A12A91A28300081F93 /* BabyFishFeeds Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		939AF9892A91A28200081F93 /* BabyFishFeeds Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				93D8B17C2A91CE20001F3CFD /* Views */,
+				939AF98A2A91A28200081F93 /* BabyFishFeedsApp.swift */,
+				939AF98C2A91A28200081F93 /* ContentView.swift */,
+				939AF98E2A91A28300081F93 /* Assets.xcassets */,
+				939AF9902A91A28300081F93 /* Preview Content */,
+			);
+			path = "BabyFishFeeds Watch App";
+			sourceTree = "<group>";
+		};
+		939AF9902A91A28300081F93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				939AF9912A91A28300081F93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		939AF99A2A91A28300081F93 /* BabyFishFeeds Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				939AF99B2A91A28300081F93 /* BabyFishFeeds_Watch_AppTests.swift */,
+			);
+			path = "BabyFishFeeds Watch AppTests";
+			sourceTree = "<group>";
+		};
+		939AF9A42A91A28300081F93 /* BabyFishFeeds Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				939AF9A52A91A28300081F93 /* BabyFishFeeds_Watch_AppUITests.swift */,
+				939AF9A72A91A28300081F93 /* BabyFishFeeds_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BabyFishFeeds Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		93D8B17C2A91CE20001F3CFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93D8B17D2A91CE31001F3CFD /* RotifersView.swift */,
+				93D8B17F2A91D749001F3CFD /* NHArtemiaView.swift */,
+				93D8B1812A9263C4001F3CFD /* AlgaeView.swift */,
+				93D8B1832A926437001F3CFD /* CopepodsView.swift */,
+				93D8B1852A926489001F3CFD /* ENRArtemiaView.swift */,
+				93606F952A92EDB300E60C8A /* SalinityView.swift */,
+				93A67E1B2A97DD9500D69C7B /* numberPad.swift */,
+				9346370A2A9802C40052B15D /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		939AF97E2A91A28200081F93 /* BabyFishFeeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939AF9AF2A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds" */;
+			buildPhases = (
+				939AF97D2A91A28200081F93 /* Resources */,
+				939AF9AE2A91A28300081F93 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939AF9882A91A28200081F93 /* PBXTargetDependency */,
+			);
+			name = BabyFishFeeds;
+			productName = BabyFishFeeds;
+			productReference = 939AF97F2A91A28200081F93 /* BabyFishFeeds.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		939AF9842A91A28200081F93 /* BabyFishFeeds Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939AF9AB2A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds Watch App" */;
+			buildPhases = (
+				939AF9812A91A28200081F93 /* Sources */,
+				939AF9822A91A28200081F93 /* Frameworks */,
+				939AF9832A91A28200081F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BabyFishFeeds Watch App";
+			productName = "BabyFishFeeds Watch App";
+			productReference = 939AF9852A91A28200081F93 /* BabyFishFeeds Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		939AF9962A91A28300081F93 /* BabyFishFeeds Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939AF9B22A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds Watch AppTests" */;
+			buildPhases = (
+				939AF9932A91A28300081F93 /* Sources */,
+				939AF9942A91A28300081F93 /* Frameworks */,
+				939AF9952A91A28300081F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939AF9992A91A28300081F93 /* PBXTargetDependency */,
+			);
+			name = "BabyFishFeeds Watch AppTests";
+			productName = "BabyFishFeeds Watch AppTests";
+			productReference = 939AF9972A91A28300081F93 /* BabyFishFeeds Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		939AF9A02A91A28300081F93 /* BabyFishFeeds Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 939AF9B52A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds Watch AppUITests" */;
+			buildPhases = (
+				939AF99D2A91A28300081F93 /* Sources */,
+				939AF99E2A91A28300081F93 /* Frameworks */,
+				939AF99F2A91A28300081F93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				939AF9A32A91A28300081F93 /* PBXTargetDependency */,
+			);
+			name = "BabyFishFeeds Watch AppUITests";
+			productName = "BabyFishFeeds Watch AppUITests";
+			productReference = 939AF9A12A91A28300081F93 /* BabyFishFeeds Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		939AF9792A91A28200081F93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					939AF97E2A91A28200081F93 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					939AF9842A91A28200081F93 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					939AF9962A91A28300081F93 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 939AF9842A91A28200081F93;
+					};
+					939AF9A02A91A28300081F93 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 939AF9842A91A28200081F93;
+					};
+				};
+			};
+			buildConfigurationList = 939AF97C2A91A28200081F93 /* Build configuration list for PBXProject "BabyFishFeeds" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 939AF9782A91A28200081F93;
+			productRefGroup = 939AF9802A91A28200081F93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939AF97E2A91A28200081F93 /* BabyFishFeeds */,
+				939AF9842A91A28200081F93 /* BabyFishFeeds Watch App */,
+				939AF9962A91A28300081F93 /* BabyFishFeeds Watch AppTests */,
+				939AF9A02A91A28300081F93 /* BabyFishFeeds Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		939AF97D2A91A28200081F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF9832A91A28200081F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939AF9922A91A28300081F93 /* Preview Assets.xcassets in Resources */,
+				939AF98F2A91A28300081F93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF9952A91A28300081F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF99F2A91A28300081F93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		939AF9812A91A28200081F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A67E1C2A97DD9500D69C7B /* numberPad.swift in Sources */,
+				93D8B1822A9263C4001F3CFD /* AlgaeView.swift in Sources */,
+				939AF98D2A91A28200081F93 /* ContentView.swift in Sources */,
+				93D8B1862A926489001F3CFD /* ENRArtemiaView.swift in Sources */,
+				93D8B17E2A91CE31001F3CFD /* RotifersView.swift in Sources */,
+				9346370B2A9802C40052B15D /* SettingsView.swift in Sources */,
+				93D8B1842A926437001F3CFD /* CopepodsView.swift in Sources */,
+				93D8B1802A91D749001F3CFD /* NHArtemiaView.swift in Sources */,
+				93606F962A92EDB300E60C8A /* SalinityView.swift in Sources */,
+				939AF98B2A91A28200081F93 /* BabyFishFeedsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF9932A91A28300081F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939AF99C2A91A28300081F93 /* BabyFishFeeds_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939AF99D2A91A28300081F93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939AF9A82A91A28300081F93 /* BabyFishFeeds_Watch_AppUITestsLaunchTests.swift in Sources */,
+				939AF9A62A91A28300081F93 /* BabyFishFeeds_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		939AF9882A91A28200081F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939AF9842A91A28200081F93 /* BabyFishFeeds Watch App */;
+			targetProxy = 939AF9872A91A28200081F93 /* PBXContainerItemProxy */;
+		};
+		939AF9992A91A28300081F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939AF9842A91A28200081F93 /* BabyFishFeeds Watch App */;
+			targetProxy = 939AF9982A91A28300081F93 /* PBXContainerItemProxy */;
+		};
+		939AF9A32A91A28300081F93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 939AF9842A91A28200081F93 /* BabyFishFeeds Watch App */;
+			targetProxy = 939AF9A22A91A28300081F93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		939AF9A92A91A28300081F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		939AF9AA2A91A28300081F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		939AF9AC2A91A28300081F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabyFishFeeds Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BabyFishFeeds;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.BabyFishFeeds.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		939AF9AD2A91A28300081F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabyFishFeeds Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BabyFishFeeds;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.BabyFishFeeds.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		939AF9B02A91A28300081F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				INFOPLIST_KEY_CFBundleDisplayName = BabyFishFeeds;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.BabyFishFeeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		939AF9B12A91A28300081F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				INFOPLIST_KEY_CFBundleDisplayName = BabyFishFeeds;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CuttlefishGames.BabyFishFeeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		939AF9B32A91A28300081F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CuttlefishGames.BabyFishFeeds-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyFishFeeds Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyFishFeeds Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		939AF9B42A91A28300081F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CuttlefishGames.BabyFishFeeds-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyFishFeeds Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BabyFishFeeds Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		939AF9B62A91A28300081F93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CuttlefishGames.BabyFishFeeds-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BabyFishFeeds Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		939AF9B72A91A28300081F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUQ683ZU8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CuttlefishGames.BabyFishFeeds-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BabyFishFeeds Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		939AF97C2A91A28200081F93 /* Build configuration list for PBXProject "BabyFishFeeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939AF9A92A91A28300081F93 /* Debug */,
+				939AF9AA2A91A28300081F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939AF9AB2A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939AF9AC2A91A28300081F93 /* Debug */,
+				939AF9AD2A91A28300081F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939AF9AF2A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939AF9B02A91A28300081F93 /* Debug */,
+				939AF9B12A91A28300081F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939AF9B22A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939AF9B32A91A28300081F93 /* Debug */,
+				939AF9B42A91A28300081F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		939AF9B52A91A28300081F93 /* Build configuration list for PBXNativeTarget "BabyFishFeeds Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939AF9B62A91A28300081F93 /* Debug */,
+				939AF9B72A91A28300081F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 939AF9792A91A28200081F93 /* Project object */;
+}
